@@ -1,6 +1,7 @@
 
 const calculate = (value) => {
-  console.log(value ** 2);
-
+  return value ** 2;
 }
-calculate(11);
+
+const result = calculate(11);
+console.log(result);
